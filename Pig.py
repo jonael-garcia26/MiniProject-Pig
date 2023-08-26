@@ -23,3 +23,13 @@ while True:
         print("\nInvalido, intente nuevamente.\n")
 
 print(f"\nPerfecto!! son {player_num} jugadores")
+print("***************************************************************\n")
+
+final_score = 50
+dict_scores = {}
+
+while True:
+    for i in range(player_num):
+        print(f"Player #{str(i + 1)}:\n")
+        input("Do you want to roll the dice? (y/n): ")
+
